@@ -22,4 +22,4 @@ title: TT 1.0.0 Tools and Equipment
 
 - ![Spring Portfolio Commit](https://github.com/kar722/spring_portfolio/commit/548fb900641eec4330906d28b2e8e26a5d23f0b4)
 
-[Issue Ticket #1](https://github.com/kar722/fastpages/issues/1)
+[Issue](https://github.com/kar722/fastpages/issues/2)
