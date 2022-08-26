@@ -2,32 +2,32 @@
   
     
         "post0": {
-            "title": "TT 1.0.0 Tools and Equipment",
-            "content": "Hacks . Issue . Part 1 Fastpages . Python Jupyter Notebook | Java Jupyter Notebook | | Github Insights for FastPages | Github Insights for CSA Project | . Part 2 Java Project . . Spring Portfolio Commit | . Issue .",
-            "url": "https://kar722.github.io/fastpages/markdown/2022/08/21/Tools-and-Equipment.html",
-            "relUrl": "/markdown/2022/08/21/Tools-and-Equipment.html",
-            "date": " • Aug 21, 2022"
+            "title": "Python Jupyter Notebook",
+            "content": "Python &quot;hello world&quot; via Jupyter Notebook . Hello I&#39;m Karthik . print(&quot;hello world&quot;) . hello world .",
+            "url": "https://kar722.github.io/fastpages/2022/08/25/Python-Jupyter-Notebook.html",
+            "relUrl": "/2022/08/25/Python-Jupyter-Notebook.html",
+            "date": " • Aug 25, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "Python Jupyter Notebook",
-            "content": "Python &quot;hello world&quot; via Jupyter Notebook . Hello I&#39;m Karthik . print(&quot;hello world&quot;) . hello world .",
-            "url": "https://kar722.github.io/fastpages/2022/08/21/Python-Jupyter-Notebook.html",
-            "relUrl": "/2022/08/21/Python-Jupyter-Notebook.html",
-            "date": " • Aug 21, 2022"
+            "title": "Java Notebook",
+            "content": "public class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello World!&quot;); } } HelloWorld.main(null); . Hello World! .",
+            "url": "https://kar722.github.io/fastpages/2022/08/25/Java-Jupyter-Notebook.html",
+            "relUrl": "/2022/08/25/Java-Jupyter-Notebook.html",
+            "date": " • Aug 25, 2022"
         }
         
     
   
     
         ,"post2": {
-            "title": "Java Notebook",
-            "content": "public class HelloWorld { public static void main(String[] args) { System.out.println(&quot;Hello World!&quot;); } } HelloWorld.main(null); . Hello World! .",
-            "url": "https://kar722.github.io/fastpages/2022/08/21/Java-Jupyter-Notebook.html",
-            "relUrl": "/2022/08/21/Java-Jupyter-Notebook.html",
+            "title": "TT 1.0.0 Tools and Equipment",
+            "content": "Hacks . Issue . Part 1 Fastpages . Python Jupyter Notebook | Java Jupyter Notebook | | Github Insights for FastPages | Github Insights for CSA Project | . Part 2 Java Project . . Spring Portfolio Commit | . Issue .",
+            "url": "https://kar722.github.io/fastpages/markdown/2022/08/21/Tools-and-Equipment.html",
+            "relUrl": "/markdown/2022/08/21/Tools-and-Equipment.html",
             "date": " • Aug 21, 2022"
         }
         
