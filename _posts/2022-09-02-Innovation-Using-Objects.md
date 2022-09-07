@@ -12,7 +12,7 @@ title: Week 2 Innovation - Using Objects
 
 ## Part 1 Fastpages
 
-- [Java Objects Notebook](https://kar722.github.io/fastpages/2022/04/09/Java-Objects-Juypter-Notebook.html)
+- [Java Objects Notebook](https://kar722.github.io/fastpages/2022/09/04/Java-Objects-Juypter-Notebook.html)
 
 Code.org Learning (1-15 Done)
 
