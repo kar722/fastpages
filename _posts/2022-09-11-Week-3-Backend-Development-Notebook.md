@@ -12,7 +12,7 @@ title: Week 3 Backend Development
 
 ## Fastpages Boolean Expressions and If Statements Notebook
 
-- [Java Notebook](https://kar722.github.io/fastpages/2022/09/11/Java-Week-3-Notebook.html)
+- [Java Notebook](https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html)
 
 ### Deployment
 
