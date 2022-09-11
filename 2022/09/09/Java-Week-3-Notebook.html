@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Jupyter Notebook Lesson on “if” Statements | Karthik Valluri fastpages</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Jupyter Notebook Lesson on “if” Statements" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="W" />
+<meta property="og:description" content="W" />
+<link rel="canonical" href="https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html" />
+<meta property="og:url" content="https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html" />
+<meta property="og:site_name" content="Karthik Valluri fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-09T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Jupyter Notebook Lesson on “if” Statements" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-09T00:00:00-05:00","datePublished":"2022-09-09T00:00:00-05:00","description":"W","headline":"Jupyter Notebook Lesson on “if” Statements","mainEntityOfPage":{"@type":"WebPage","@id":"https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html"},"url":"https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/fastpages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://kar722.github.io/fastpages/feed.xml" title="Karthik Valluri fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/fastpages/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/fastpages/">Karthik Valluri fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/fastpages/about/">About Me</a><a class="page-link" href="/fastpages/search/">Search</a><a class="page-link" href="/fastpages/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Jupyter Notebook Lesson on &quot;if&quot; Statements</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-09-09T00:00:00-05:00" itemprop="datePublished">
+        Sep 9, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/kar722/fastpages/tree/master/_notebooks/2022-09-09-Java-Week-3-Notebook.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/fastpages/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/kar722/fastpages/master?filepath=_notebooks%2F2022-09-09-Java-Week-3-Notebook.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/fastpages/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/kar722/fastpages/blob/master/_notebooks/2022-09-09-Java-Week-3-Notebook.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/fastpages/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Fkar722%2Ffastpages%2Fblob%2Fmaster%2F_notebooks%2F2022-09-09-Java-Week-3-Notebook.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/fastpages/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-09-09-Java-Week-3-Notebook.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="if-statements-are-used-to-run-a-method-based-on-if-something-specifically-described-happens.">if statements are used to run a method based on if something specifically described happens.<a class="anchor-link" href="#if-statements-are-used-to-run-a-method-based-on-if-something-specifically-described-happens."> </a></h5>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="p">;</span>
+<span class="n">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+
+<span class="kt">double</span> <span class="n">x</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the first number: &quot;</span><span class="p">);</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the second number: &quot;</span><span class="p">);</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="s">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter the first number: 12.2
+Enter the second number: 4.7
+12.2 is greater than 4.7
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="if-else----if-the-specific-condition-is-true-then-proceed-below-and-run-the-method-BUT-if-the-condition-is-false-then-proceed-with-the-different-set-of-instructions-defined">if-else -- if the specific condition is true then proceed below and run the method BUT if the condition is false then proceed with the different set of instructions defined<a class="anchor-link" href="#if-else----if-the-specific-condition-is-true-then-proceed-below-and-run-the-method-BUT-if-the-condition-is-false-then-proceed-with-the-different-set-of-instructions-defined"> </a></h5>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="p">;</span>
+<span class="n">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+
+<span class="kt">double</span> <span class="n">x</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the first number: &quot;</span><span class="p">);</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the second number: &quot;</span><span class="p">);</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="s">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span> <span class="o">+</span> <span class="s">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="n">x</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter the first number: 3.9
+Enter the second number: 5.78
+5.78 is greater than 3.9
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="if-elseif-else----if-the-specific-condition-is-true-then-proceed-below-and-run-the-method-BUT-if-the-condition-is-not-met-try-the-next-condition-and-if-the-condition-is-met-run-this-code-segment-now-if-both-of-the-conditions-are-false-then-proceed-with-the-different-set-of-instructions-defined">if-elseif-else -- if the specific condition is true then proceed below and run the method BUT if the condition is not met try the next condition and if the condition is met run this code segment now if both of the conditions are false then proceed with the different set of instructions defined<a class="anchor-link" href="#if-elseif-else----if-the-specific-condition-is-true-then-proceed-below-and-run-the-method-BUT-if-the-condition-is-not-met-try-the-next-condition-and-if-the-condition-is-met-run-this-code-segment-now-if-both-of-the-conditions-are-false-then-proceed-with-the-different-set-of-instructions-defined"> </a></h5>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="p">;</span>
+<span class="n">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+
+<span class="kt">double</span> <span class="n">x</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the first number: &quot;</span><span class="p">);</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the second number: &quot;</span><span class="p">);</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="s">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="s">&quot; is equal to &quot;</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="k">else</span> <span class="p">{</span>
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span> <span class="o">+</span> <span class="s">&quot; is greater than &quot;</span> <span class="o">+</span> <span class="n">x</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter the first number: 11.78
+Enter the second number: 11.78
+11.78 is equal to 11.78
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="Create-and-if-elseif-elseif-elsif-else-statement,-5-or-more-conditions.">Create and if-elseif-elseif-elsif-else statement, 5 or more conditions.<a class="anchor-link" href="#Create-and-if-elseif-elseif-elsif-else-statement,-5-or-more-conditions."> </a></h5>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="p">;</span>
+<span class="n">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+
+<span class="kt">double</span> <span class="n">x</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the first number: &quot;</span><span class="p">);</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the operator (+,-,*,/): &quot;</span><span class="p">);</span>
+
+<span class="kt">char</span> <span class="n">operator</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">next</span><span class="p">().</span><span class="na">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">operator</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the second number: &quot;</span><span class="p">);</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">operator</span> <span class="o">==</span> <span class="sc">&#39;+&#39;</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">operator</span> <span class="o">==</span> <span class="sc">&#39;-&#39;</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">operator</span> <span class="o">==</span> <span class="sc">&#39;*&#39;</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">operator</span> <span class="o">==</span> <span class="sc">&#39;/&#39;</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Invalid operator&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter the first number: 44.1
+Enter the operator (+,-,*,/): /
+Enter the second number: 5.3
+8.320754716981133
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="Covert-the-5-or-more-decisions-to-a-switch-case-case-case-case-otherwise.">Covert the 5 or more decisions to a switch-case-case-case-case-otherwise.<a class="anchor-link" href="#Covert-the-5-or-more-decisions-to-a-switch-case-case-case-case-otherwise."> </a></h5>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kt">double</span> <span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">;</span>
+
+<span class="c1">// Take input from the user</span>
+<span class="n">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the first number: &quot;</span><span class="p">);</span>
+
+<span class="c1">// take the inputs</span>
+<span class="n">num1</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">num1</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter the operator (+,-,*,/): &quot;</span><span class="p">);</span>
+
+<span class="kt">char</span> <span class="n">operator</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">next</span><span class="p">().</span><span class="na">charAt</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">operator</span><span class="p">);</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Enter second number: &quot;</span><span class="p">);</span>
+
+<span class="n">num2</span> <span class="o">=</span> <span class="n">scanner</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">num2</span><span class="p">);</span>
+
+<span class="kt">double</span> <span class="n">output</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="k">switch</span> <span class="p">(</span><span class="n">operator</span><span class="p">)</span> <span class="p">{</span>
+
+<span class="c1">// case to add two numbers</span>
+<span class="k">case</span> <span class="sc">&#39;+&#39;</span><span class="p">:</span>
+
+    <span class="n">output</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span><span class="p">;</span>
+
+    <span class="k">break</span><span class="p">;</span>
+
+<span class="c1">// case to subtract two numbers</span>
+<span class="k">case</span> <span class="sc">&#39;-&#39;</span><span class="p">:</span>
+
+    <span class="n">output</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">-</span> <span class="n">num2</span><span class="p">;</span>
+
+    <span class="k">break</span><span class="p">;</span>
+
+<span class="c1">// case to multiply two numbers</span>
+<span class="k">case</span> <span class="sc">&#39;*&#39;</span><span class="p">:</span>
+
+    <span class="n">output</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">*</span> <span class="n">num2</span><span class="p">;</span>
+
+    <span class="k">break</span><span class="p">;</span>
+
+<span class="c1">// case to divide two numbers</span>
+<span class="k">case</span> <span class="sc">&#39;/&#39;</span><span class="p">:</span>
+
+    <span class="n">output</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">/</span> <span class="n">num2</span><span class="p">;</span>
+
+    <span class="k">break</span><span class="p">;</span>
+
+<span class="nl">default:</span>
+
+    <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Invalid input&quot;</span><span class="p">);</span>
+
+    <span class="k">break</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;The final result: &quot;</span><span class="p">);</span>
+
+<span class="c1">// print the final result</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">num1</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">operator</span> <span class="o">+</span> <span class="s">&quot; &quot;</span> <span class="o">+</span> <span class="n">num2</span> <span class="o">+</span> <span class="s">&quot; = &quot;</span> <span class="o">+</span> <span class="n">output</span><span class="p">);</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Enter the first number: 45.0
+Enter the operator (+,-,*,/): /
+Enter second number: 4.4
+The final result: 
+45.0 / 4.4 = 10.227272727272727
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="De-Morgan's-Law">De Morgan's Law<a class="anchor-link" href="#De-Morgan's-Law"> </a></h4><p>DeMorgan’s laws were developed by Augustus De Morgan in the 1800s. They show how to handle the negation of a complex conditional, which is a conditional statement with more than one condition joined by an and (&amp;&amp;) or or (||), such as (x &lt; 3) &amp;&amp; (y &gt; 2).</p>
+<p>not (a and b) is the same as (not a) or (not b). In Java this is written as !(a &amp;&amp; b) == !a || !b</p>
+<p>not (a or b) is the same as (not a) and (not b). In Java this is written as !(a || b) == !a &amp;&amp; !b</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The negation modifies each conditional:</p>
+<ul>
+<li>&lt; becomes &gt;=</li>
+<li><blockquote><p>becomes &lt;=</p>
+</blockquote>
+</li>
+<li>== becomes !=</li>
+<li>&lt;= becomes &gt;</li>
+<li><blockquote><p>= becomes &lt;</p>
+</blockquote>
+</li>
+<li>!= becomes ==</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DeMorgansAndTest</span>
+<span class="p">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span>
+   <span class="p">{</span>
+     <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span>
+     <span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">16</span><span class="p">;</span>
+     <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">6</span> <span class="o">&amp;&amp;</span> <span class="n">y</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">));</span>
+     <span class="c1">// prints true if x is not &gt; 6 OR y is not &lt; 3</span>
+     <span class="c1">// prints false otherwise</span>
+     <span class="c1">// this output should be true as x IS &gt; 6 BUT y IS NOT &lt; 3</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">DeMorgansAndTest</span><span class="p">.</span><span class="na">main</span><span class="p">(</span><span class="kc">null</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>true
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-java"><pre><span></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DeMorgansOrTest</span>
+<span class="p">{</span>
+   <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span>
+   <span class="p">{</span>
+     <span class="kt">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+     <span class="kt">int</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+     <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="o">||</span> <span class="n">y</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">));</span>
+     <span class="c1">// prints true if x is not &lt; 3 AND y is not &gt; 2</span>
+     <span class="c1">// prints false otherwise</span>
+     <span class="c1">// this output should be false as x IS &gt; 3 AND y IS &gt; 2</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+<span class="n">DeMorgansOrTest</span><span class="p">.</span><span class="na">main</span><span class="p">(</span><span class="kc">null</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>false
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Resources">Resources<a class="anchor-link" href="#Resources"> </a></h3><ul>
+<li><a href="https://www.w3schools.com/java/java_conditions.asp">https://www.w3schools.com/java/java_conditions.asp</a></li>
+<li><a href="https://www.javatpoint.com/java-if-else">https://www.javatpoint.com/java-if-else</a></li>
+<li><a href="https://www.programiz.com/java-programming/if-else-statement">https://www.programiz.com/java-programming/if-else-statement</a></li>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html">https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html</a></li>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html">https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html</a></li>
+<li><a href="https://www.w3schools.com/java/java_switch.asp">https://www.w3schools.com/java/java_switch.asp</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/fastpages/2022/09/09/Java-Week-3-Notebook.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/fastpages/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/fastpages/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/fastpages/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>W</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/kar722" target="_blank" title="kar722"><svg class="svg-icon grey"><use xlink:href="/fastpages/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/karthiksburner" target="_blank" title="karthiksburner"><svg class="svg-icon grey"><use xlink:href="/fastpages/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
