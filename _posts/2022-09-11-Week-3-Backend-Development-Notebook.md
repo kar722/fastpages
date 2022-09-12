@@ -19,3 +19,6 @@ title: Week 3 Backend Development
 - [URL]()
 
 - [Repo]()
+
+### Focus/Habits
+- 
