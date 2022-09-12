@@ -16,7 +16,7 @@ title: Week 3 Backend Development
 
 ### Deployment
 
-- [URL](karthikvalluri.ml)
+- [URL](http://karthikvalluri.ml)
 
 - [Repo](https://github.com/kar722/spring_portfolio)
 
