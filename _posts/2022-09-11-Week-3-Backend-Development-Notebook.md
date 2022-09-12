@@ -21,4 +21,4 @@ title: Week 3 Backend Development
 - [Repo]()
 
 ### Focus/Habits
-- 
+- [Post](https://kar722.github.io/fastpages/markdown/2022/09/11/Psychology-and-the-Good-Life.html)
