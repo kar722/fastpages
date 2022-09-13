@@ -8,17 +8,15 @@ title: Week 3 Focus/Habits
 
 # Life goals
 - Bench 225
-  - ![image](https://user-images.githubusercontent.com/72475804/189558325-ea7a3858-c8cd-46c8-b9de-ee04fb0929d0.png)
+  - <img src="(https://user-images.githubusercontent.com/72475804/189558325-ea7a3858-c8cd-46c8-b9de-ee04fb0929d0.png)"  width="200">
 - Boxing Evan
-  - ![image](https://user-images.githubusercontent.com/72475804/189558351-dcb03657-799a-4b0c-ad1c-bd128160e5c4.png)
+  - <img src="(https://user-images.githubusercontent.com/72475804/189973499-12d8e135-fb35-4ebe-bfe8-61e6e520b628.png)"  width="200">
 - Get a high paying job
-  - ![image](https://user-images.githubusercontent.com/72475804/189558197-e7f50a9f-b02c-46fd-9523-5206dd7290ae.png)
+  - <img src="(https://user-images.githubusercontent.com/72475804/189558197-e7f50a9f-b02c-46fd-9523-5206dd7290ae.png)"  width="200">
 - Buy my parents a mansion
-  - ![image](https://user-images.githubusercontent.com/72475804/189558228-67045fa7-da85-4a15-bff2-9a3a520fd90a.png)
+  - <img src="(https://user-images.githubusercontent.com/72475804/189558228-67045fa7-da85-4a15-bff2-9a3a520fd90a.png)"  width="200">
 - Lamborghini
-  - ![image](https://user-images.githubusercontent.com/72475804/189558263-99226041-932b-4a1a-a658-a84f5f1d2b72.png)
-- Hrithik Roshan Body
-  - ![image](https://user-images.githubusercontent.com/72475804/189558167-cfff9680-57c0-4284-b4d7-8b9395dd1b1a.png)
+  - <img src="(https://user-images.githubusercontent.com/72475804/189558263-99226041-932b-4a1a-a658-a84f5f1d2b72.png)"  width="200">
 
 
 
