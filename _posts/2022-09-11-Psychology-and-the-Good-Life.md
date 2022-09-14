@@ -8,17 +8,15 @@ title: Week 3 Focus/Habits
 
 # Life goals
 - Bench 225
-  - ![image](https://user-images.githubusercontent.com/72475804/189558325-ea7a3858-c8cd-46c8-b9de-ee04fb0929d0.png)
+  - <img src="https://cdn.shopify.com/s/files/1/1876/4703/articles/shutterstock_336330497_1600x.jpg?v=1617883068"  width="200">
 - Boxing Evan
-  - ![image](https://user-images.githubusercontent.com/72475804/189558351-dcb03657-799a-4b0c-ad1c-bd128160e5c4.png)
+  - <img src="https://i2-prod.mirror.co.uk/incoming/article27850617.ece/ALTERNATES/s1200d/0_Boxing-in-London-KSI-v-Wassabi.jpg"  width="200">
 - Get a high paying job
-  - ![image](https://user-images.githubusercontent.com/72475804/189558197-e7f50a9f-b02c-46fd-9523-5206dd7290ae.png)
+  - <img src="https://cdn.thepennyhoarder.com/wp-content/uploads/2015/03/26202459/Paycheck-at-Work.jpg"  width="200">
 - Buy my parents a mansion
-  - ![image](https://user-images.githubusercontent.com/72475804/189558228-67045fa7-da85-4a15-bff2-9a3a520fd90a.png)
+  - <img src="https://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_architecturaldigest.png,fl_progressive,g_face,h_1080,q_80,w_1920/v1645135325/architecturaldigest_on-the-market-inside-a-23-dollars-million-mega-mansion-surrounded-by-a-lake.jpg"  width="200">
 - Lamborghini
-  - ![image](https://user-images.githubusercontent.com/72475804/189558263-99226041-932b-4a1a-a658-a84f5f1d2b72.png)
-- Hrithik Roshan Body
-  - ![image](https://user-images.githubusercontent.com/72475804/189558167-cfff9680-57c0-4284-b4d7-8b9395dd1b1a.png)
+  - <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/aventador/2021/gate_aven_s_01_m.jpg"  width="200">
 
 
 
