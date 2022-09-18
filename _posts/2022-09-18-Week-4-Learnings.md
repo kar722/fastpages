@@ -14,7 +14,7 @@ title: Week 4 Free Response Question No. 1
 - [2007 AP CSA Free Response Question](https://kar722.github.io/fastpages/2022/09/15/FRQ-1-Juypter-Notebook.html)
 
 ## Iteration with 2D Array
-- [Iteration with 2D Array Hack - 2018 WC](https://kar722.github.io/fastpages/2022/09/09/Java-Week-3-Notebook.html)
+- [Iteration with 2D Array Hack - 2018 WC](https://kar722.github.io/fastpages/2022/09/18/2D-Iteration-Array-Jupyter-Notebook.html)
 
 #### Iteration with 2D Array Questions
 
