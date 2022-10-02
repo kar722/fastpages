@@ -469,13 +469,13 @@ window.onload = wrap_img;
     <span class="c1">// tester/driver</span>
     <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="kd">throws</span> <span class="n">IOException</span> <span class="p">{</span>
         <span class="n">Pics</span> <span class="n">messi</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Pics</span><span class="p">(</span><span class="s">&quot;messi&quot;</span><span class="p">,</span> <span class="s">&quot;png&quot;</span><span class="p">);</span>
-        <span class="c1">// messi.greyscale();</span>
-        <span class="c1">// messi.redscale();</span>
-        <span class="c1">// messi.greenscale();</span>
-        <span class="c1">// messi.bluescale();</span>
-        <span class="c1">// messi.printStats(&quot;Original&quot;);</span>
-        <span class="c1">// messi.resize(33);</span>
-        <span class="c1">// messi.printStats(&quot;Scaled&quot;);</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">greyscale</span><span class="p">();</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">redscale</span><span class="p">();</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">greenscale</span><span class="p">();</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">bluescale</span><span class="p">();</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">printStats</span><span class="p">(</span><span class="s">&quot;Original&quot;</span><span class="p">);</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">resize</span><span class="p">(</span><span class="mi">33</span><span class="p">);</span>
+        <span class="n">messi</span><span class="p">.</span><span class="na">printStats</span><span class="p">(</span><span class="s">&quot;Scaled&quot;</span><span class="p">);</span>
         <span class="n">messi</span><span class="p">.</span><span class="na">convertToAscii</span><span class="p">();</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -483,6 +483,21 @@ window.onload = wrap_img;
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Original: 6982622 1920x1920  images/messi.png
+Scaled: 6982622 1920x1920  images/messi.png
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
