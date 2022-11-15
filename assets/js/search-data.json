@@ -2,21 +2,21 @@
   
     
         "post0": {
-            "title": "Night @ The Musuem",
-            "content": "Photos . . Final Project Trimester 1 . Backend . Backend Repo | Backend Website | Votes API | Trivia API | Self Made Predictions API | | . Frontend . Frontend Repo | Index.html | Quiz.html | Votes.html | .",
-            "url": "https://kar722.github.io/fastpages/markdown/2022/11/08/N@TM.html",
-            "relUrl": "/markdown/2022/11/08/N@TM.html",
-            "date": " • Nov 8, 2022"
+            "title": "Bash Week 1 Notebook",
+            "content": "ls . 2020-02-20-test.ipynb* 2022-21-08-Java-Jupyter-Notebook.ipynb* 2022-21-08-Python-Jupyter-Notebook.ipynb* 2022-28-08-Bash-Jupyter-Notebook.ipynb* 2022-28-08-Java-Primitives-Jupyter-Notebook.ipynb* README.md* ghtop_images/ my_icons/ . !python --version . Python 3.9.12 . !python2 --version . Python 2.7.18 . !java --version . openjdk 11.0.16 2022-07-19 OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu120.04) OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing) . !javac --version . javac 11.0.16 . !conda --version . conda 4.14.0 . conda list | grep &quot;jupyter&quot; . jupyter 1.0.0 py39h06a4308_7 jupyter_client 6.1.12 pyhd3eb1b0_0 jupyter_console 6.4.0 pyhd3eb1b0_0 jupyter_core 4.9.2 py39h06a4308_0 jupyter_server 1.13.5 pyhd3eb1b0_0 jupyterlab 3.3.2 pyhd3eb1b0_0 jupyterlab_pygments 0.1.2 py_0 jupyterlab_server 2.10.3 pyhd3eb1b0_1 jupyterlab_widgets 1.0.0 pyhd3eb1b0_1 Note: you may need to restart the kernel to use updated packages. . !juypter --version . /bin/bash: juypter: command not found . !jupyter kernelspec list . Available kernels: java /home/kar/.local/share/jupyter/kernels/java javascript /home/kar/.local/share/jupyter/kernels/javascript python3 /home/kar/.local/share/jupyter/kernels/python3 . !npm -version . 3.10.10 .",
+            "url": "https://kar722.github.io/fastpages/2022/11/14/Bash-Jupyter-Notebook.html",
+            "relUrl": "/2022/11/14/Bash-Jupyter-Notebook.html",
+            "date": " • Nov 14, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "Bash Week 1 Notebook",
-            "content": "ls . 2020-02-20-test.ipynb* 2022-21-08-Java-Jupyter-Notebook.ipynb* 2022-21-08-Python-Jupyter-Notebook.ipynb* 2022-28-08-Bash-Jupyter-Notebook.ipynb* 2022-28-08-Java-Primitives-Jupyter-Notebook.ipynb* README.md* ghtop_images/ my_icons/ . !python --version . Python 3.9.12 . !python2 --version . Python 2.7.18 . !java --version . openjdk 11.0.16 2022-07-19 OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu120.04) OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing) . !javac --version . javac 11.0.16 . !conda --version . conda 4.14.0 . conda list | grep &quot;jupyter&quot; . jupyter 1.0.0 py39h06a4308_7 jupyter_client 6.1.12 pyhd3eb1b0_0 jupyter_console 6.4.0 pyhd3eb1b0_0 jupyter_core 4.9.2 py39h06a4308_0 jupyter_server 1.13.5 pyhd3eb1b0_0 jupyterlab 3.3.2 pyhd3eb1b0_0 jupyterlab_pygments 0.1.2 py_0 jupyterlab_server 2.10.3 pyhd3eb1b0_1 jupyterlab_widgets 1.0.0 pyhd3eb1b0_1 Note: you may need to restart the kernel to use updated packages. . !juypter --version . /bin/bash: juypter: command not found . !jupyter kernelspec list . Available kernels: java /home/kar/.local/share/jupyter/kernels/java javascript /home/kar/.local/share/jupyter/kernels/javascript python3 /home/kar/.local/share/jupyter/kernels/python3 . !npm -version . 3.10.10 .",
-            "url": "https://kar722.github.io/fastpages/2022/11/08/Bash-Jupyter-Notebook.html",
-            "relUrl": "/2022/11/08/Bash-Jupyter-Notebook.html",
+            "title": "Night @ The Musuem",
+            "content": "Photos . . Final Project Trimester 1 . Backend . Backend Repo | Backend Website | Votes API | Trivia API | Self Made Predictions API | | . Frontend . Frontend Repo | Index.html | Quiz.html | Votes.html | .",
+            "url": "https://kar722.github.io/fastpages/markdown/2022/11/08/N@TM.html",
+            "relUrl": "/markdown/2022/11/08/N@TM.html",
             "date": " • Nov 8, 2022"
         }
         
@@ -366,12 +366,15 @@
   
 
   
+  
+
+  
 
   
   
 
   
-      ,"page12": {
+      ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://kar722.github.io/fastpages/robots.txt",
