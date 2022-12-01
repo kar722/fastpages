@@ -2,21 +2,21 @@
   
     
         "post0": {
-            "title": "Unit 2 Grading",
-            "content": "Unit 2 Homework Grades . Groups Grade MCQ FRQ Notes . 1 | .95 | 1/1 | .9/1 | Completed everything as standard yet better than everyone elses | . 2 | 1 | 1/1 | 1/1 | Way over the top, had clear knowledge and mastery of said topic | . 3 (Ours) | - | - | - | - | . 4 | 1/1 | 1/1 | 1/1 | Understanding is clear, extensive knowledge of objects | . 5 | .9 | 1/1 | .9/1 | Couple of links don’t work | . 6 | .95 | 1/1 | .9/1 | Standard Answers yet a seemlingly perfect blog | . 7 | 1/1 | 1/1 | 1+/1 | looks very clean, and is clear that time was put into understanding | . 8 | .95 | 1/1 | .9/1 | Great Organization, FRQ Answer is basic | . 9 | .95 | 1/1 | 1/1 | Unorganized, Amazing Work | . 10 | .9/1 | 1/1 | .8/1 | FRQ lacked effort, 6/7 on MCQ | .",
-            "url": "https://kar722.github.io/fastpages/markdown/2022/11/29/Grading.html",
-            "relUrl": "/markdown/2022/11/29/Grading.html",
-            "date": " • Nov 29, 2022"
+            "title": "Bash Week 1 Notebook",
+            "content": "ls . 2020-02-20-test.ipynb* 2022-21-08-Java-Jupyter-Notebook.ipynb* 2022-21-08-Python-Jupyter-Notebook.ipynb* 2022-28-08-Bash-Jupyter-Notebook.ipynb* 2022-28-08-Java-Primitives-Jupyter-Notebook.ipynb* README.md* ghtop_images/ my_icons/ . !python --version . Python 3.9.12 . !python2 --version . Python 2.7.18 . !java --version . openjdk 11.0.16 2022-07-19 OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu120.04) OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing) . !javac --version . javac 11.0.16 . !conda --version . conda 4.14.0 . conda list | grep &quot;jupyter&quot; . jupyter 1.0.0 py39h06a4308_7 jupyter_client 6.1.12 pyhd3eb1b0_0 jupyter_console 6.4.0 pyhd3eb1b0_0 jupyter_core 4.9.2 py39h06a4308_0 jupyter_server 1.13.5 pyhd3eb1b0_0 jupyterlab 3.3.2 pyhd3eb1b0_0 jupyterlab_pygments 0.1.2 py_0 jupyterlab_server 2.10.3 pyhd3eb1b0_1 jupyterlab_widgets 1.0.0 pyhd3eb1b0_1 Note: you may need to restart the kernel to use updated packages. . !juypter --version . /bin/bash: juypter: command not found . !jupyter kernelspec list . Available kernels: java /home/kar/.local/share/jupyter/kernels/java javascript /home/kar/.local/share/jupyter/kernels/javascript python3 /home/kar/.local/share/jupyter/kernels/python3 . !npm -version . 3.10.10 .",
+            "url": "https://kar722.github.io/fastpages/2022/11/30/Bash-Jupyter-Notebook.html",
+            "relUrl": "/2022/11/30/Bash-Jupyter-Notebook.html",
+            "date": " • Nov 30, 2022"
         }
         
     
   
     
         ,"post1": {
-            "title": "Bash Week 1 Notebook",
-            "content": "ls . 2020-02-20-test.ipynb* 2022-21-08-Java-Jupyter-Notebook.ipynb* 2022-21-08-Python-Jupyter-Notebook.ipynb* 2022-28-08-Bash-Jupyter-Notebook.ipynb* 2022-28-08-Java-Primitives-Jupyter-Notebook.ipynb* README.md* ghtop_images/ my_icons/ . !python --version . Python 3.9.12 . !python2 --version . Python 2.7.18 . !java --version . openjdk 11.0.16 2022-07-19 OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu120.04) OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing) . !javac --version . javac 11.0.16 . !conda --version . conda 4.14.0 . conda list | grep &quot;jupyter&quot; . jupyter 1.0.0 py39h06a4308_7 jupyter_client 6.1.12 pyhd3eb1b0_0 jupyter_console 6.4.0 pyhd3eb1b0_0 jupyter_core 4.9.2 py39h06a4308_0 jupyter_server 1.13.5 pyhd3eb1b0_0 jupyterlab 3.3.2 pyhd3eb1b0_0 jupyterlab_pygments 0.1.2 py_0 jupyterlab_server 2.10.3 pyhd3eb1b0_1 jupyterlab_widgets 1.0.0 pyhd3eb1b0_1 Note: you may need to restart the kernel to use updated packages. . !juypter --version . /bin/bash: juypter: command not found . !jupyter kernelspec list . Available kernels: java /home/kar/.local/share/jupyter/kernels/java javascript /home/kar/.local/share/jupyter/kernels/javascript python3 /home/kar/.local/share/jupyter/kernels/python3 . !npm -version . 3.10.10 .",
-            "url": "https://kar722.github.io/fastpages/2022/11/29/Bash-Jupyter-Notebook.html",
-            "relUrl": "/2022/11/29/Bash-Jupyter-Notebook.html",
+            "title": "Unit 2 Grading",
+            "content": "Unit 2 Homework Grades . Groups Grade MCQ FRQ Notes Members . 1 | .95 | 1/1 | .9/1 | Completed everything as standard yet better than everyone elses | Divya, Linda, Rebecca, Vaishavi | . 2 | 1 | 1/1 | 1/1 | Way over the top, had clear knowledge and mastery of said topic | Riya Patil, Vidhi Kulkarni, Lily Wu, William Wu | . 3 (Ours) | - | - | - | - | Karthik Valluri, Sanja Bharadwaj, Evan Yang, Pranav Sarathy | . 4 | 1/1 | 1/1 | 1/1 | Understanding is clear, extensive knowledge of objects | Rohan Juneja, Kinish Sathish, Gabriel Boudreau, Jay Manjrekar | . 5 | .9 | 1/1 | .9/1 | Couple of links don’t work | Meena, Pranavi, Madhumita, Shraddha | . 6 | .95 | 1/1 | .9/1 | Standard Answers yet a seemlingly perfect blog | kurtis, nathan, sahil, rohit | . 7 | 1/1 | 1/1 | 1+/1 | looks very clean, and is clear that time was put into understanding | Reem Ben Ishai, Akhil Nandhakumar, Saathvika Ajith, Tristan Copley | . 8 | .95 | 1/1 | .9/1 | Great Organization, FRQ Answer is basic | Bailey Say, Andrew Meng, Rohan Gaikwad, Nicholas Mounier | . 9 | .95 | 1/1 | 1/1 | Unorganized, Amazing Work | Brian Tang, Hetvi Trivedi, Jazair Tallman, Ellen Xu | . 10 | .9/1 | 1/1 | .8/1 | FRQ lacked effort, 6/7 on MCQ | Calissa Tyrrell, Evan Sanchez, Samuel Wang, Kian Pasokhi | .",
+            "url": "https://kar722.github.io/fastpages/markdown/2022/11/29/Grading.html",
+            "relUrl": "/markdown/2022/11/29/Grading.html",
             "date": " • Nov 29, 2022"
         }
         
