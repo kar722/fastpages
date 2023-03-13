@@ -161,6 +161,14 @@ return d;
 } 
 ```
 
+The above code is a Java method that takes an array of strings called "tokens" as input and returns an ArrayList of strings containing only the strings that are equal to either "openDel" or "closeDel".
+
+The method first initializes an empty ArrayList of strings called "d". It then iterates through each string "str" in the "tokens" array using a for-each loop. For each "str" string, it checks whether it is equal to "openDel" or "closeDel" using the equals() method. If "str" is equal to either of these strings, it adds it to the "d" ArrayList using the add() method.
+
+Finally, after iterating through all the strings in the "tokens" array, the method returns the "d" ArrayList containing only the strings that are equal to either "openDel" or "closeDel".
+
+Note that the values of "openDel" and "closeDel" are not defined in the code snippet provided, so their values are unknown.
+
 Part b
 ```
 public boolean isBalanced(ArrayList < String > delimiters) {
@@ -184,4 +192,12 @@ public boolean isBalanced(ArrayList < String > delimiters) {
 }
 ```
 
+The code above is a Java method that takes an ArrayList of strings called "delimiters" as input and checks whether the input contains balanced delimiters.
 
+The method first initializes two integer variables, "openCount" and "closeCount", to 0. It then iterates through each string "str" in the "delimiters" ArrayList using a for-each loop. For each "str" string, it checks whether it is equal to "openDel" using the equals() method. If "str" is equal to "openDel", it increments the "openCount" variable. Otherwise, it increments the "closeCount" variable.
+
+At each iteration, the method checks whether the number of closing delimiters is greater than the number of opening delimiters. If this is the case, it means that the input is unbalanced, and the method immediately returns false.
+
+After iterating through all the strings in the "delimiters" ArrayList, the method checks whether the "openCount" variable is equal to the "closeCount" variable. If they are equal, it means that the input contains balanced delimiters, and the method returns true. Otherwise, it means that the input is unbalanced, and the method returns false.
+
+Note that the value of "openDel" is not defined in the code snippet provided, so its value is unknown. Additionally, this implementation assumes that all other strings in the "delimiters" ArrayList are closing delimiters, which may not always be the case.
