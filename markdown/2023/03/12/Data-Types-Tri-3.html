@@ -1,0 +1,224 @@
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Data Types</h1><p class="page-description">Data Structures Tri 3</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-03-12T00:00:00-06:00" itemprop="datePublished">
+        Mar 12, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpages/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#int">int</a></li>
+<li class="toc-entry toc-h2"><a href="#wrapper-class-integer">Wrapper Class Integer</a></li>
+<li class="toc-entry toc-h2"><a href="#double">double</a></li>
+<li class="toc-entry toc-h2"><a href="#wrapper-class-double">Wrapper Class Double</a></li>
+<li class="toc-entry toc-h2"><a href="#boolean">boolean</a></li>
+<li class="toc-entry toc-h2"><a href="#wrapper-class-boolean">Wrapper Class Boolean</a></li>
+<li class="toc-entry toc-h2"><a href="#char">char</a></li>
+<li class="toc-entry toc-h2"><a href="#wrapper-class-character">Wrapper Class Character</a></li>
+<li class="toc-entry toc-h1"><a href="#exploring-teacher-code">Exploring Teacher Code</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#methods">Methods</a></li>
+<li class="toc-entry toc-h2"><a href="#control-structures">Control Structures</a></li>
+<li class="toc-entry toc-h2"><a href="#mathrandom">Math.random</a></li>
+<li class="toc-entry toc-h2"><a href="#ap-frq-2019">AP FRQ 2019</a></li>
+</ul>
+</li>
+</ul><h2 id="int">
+<a class="anchor" href="#int" aria-hidden="true"><span class="octicon octicon-link"></span></a>int</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int[] intArray = new int[]{1, 2, 3, 4, 5};
+int randomInt = intArray[(int) (Math.random() * intArray.length)];
+</code></pre></div></div>
+
+<h2 id="wrapper-class-integer">
+<a class="anchor" href="#wrapper-class-integer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wrapper Class Integer</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Integer[] integerArray = new Integer[]{1, 2, 3, 4, 5};
+Integer randomInteger = integerArray[(int) (Math.random() * integerArray.length)];
+</code></pre></div></div>
+
+<p><br></p>
+
+<h2 id="double">
+<a class="anchor" href="#double" aria-hidden="true"><span class="octicon octicon-link"></span></a>double</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>double[] doubleArray = new double[]{4.76, 9.87, 31.1, 16.8, 132.0};
+double randomDouble = doubleArray[(int) (Math.random() * doubleArray.length)];
+</code></pre></div></div>
+<h2 id="wrapper-class-double">
+<a class="anchor" href="#wrapper-class-double" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wrapper Class Double</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Double[] doubleArray = new Double[]{1.2, 2.4, 3.6, 4.8, 5.0};
+Double randomDouble = doubleArray[(int) (Math.random() * doubleArray.length)];
+</code></pre></div></div>
+
+<p><br></p>
+
+<h2 id="boolean">
+<a class="anchor" href="#boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a>boolean</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>boolean[] booleanArray = new boolean[]{true, false, true, false, true};
+boolean randomBoolean = booleanArray[(int) (Math.random() * booleanArray.length)];
+</code></pre></div></div>
+
+<h2 id="wrapper-class-boolean">
+<a class="anchor" href="#wrapper-class-boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wrapper Class Boolean</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Boolean[] booleanArray = new Boolean[]{true, false, true, false, true};
+Boolean randomBoolean = booleanArray[(int) (Math.random() * booleanArray.length)];
+</code></pre></div></div>
+
+<p><br></p>
+
+<h2 id="char">
+<a class="anchor" href="#char" aria-hidden="true"><span class="octicon octicon-link"></span></a>char</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>String charString = "hello";
+char[] charArray = charString.toCharArray();
+String randomCharString = charString.substring((int) (Math.random() * charString.length()), (int) (Math.random() * charString.length() + 1));
+char randomChar = randomCharString.charAt(0);
+</code></pre></div></div>
+
+<h2 id="wrapper-class-character">
+<a class="anchor" href="#wrapper-class-character" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wrapper Class Character</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>String charString = "hello";
+Character[] charArray = ArrayUtils.toObject(charString.toCharArray());
+String randomCharString = charString.substring((int) (Math.random() * charString.length()), (int) (Math.random() * charString.length() + 1));
+Character randomChar = randomCharString.charAt(0);
+</code></pre></div></div>
+<h1 id="exploring-teacher-code">
+<a class="anchor" href="#exploring-teacher-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Exploring Teacher Code</h1>
+<p><a href="https://github.com/nighthawkcoders/spring_portfolio/blob/master/src/main/java/com/nighthawk/hacks/methodsDataTypes/Menu.java">Menu.java</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Driver {
+    /**
+     *  Menu Control Example
+     */
+    public static void main(String[] args) {
+        // Row initialize
+        MenuRow[] rows = new MenuRow[]{
+            // lambda style, () -&gt; to point to Class.Method
+            new MenuRow("Exit", () -&gt; main(null)),
+            new MenuRow("Do Nothing", () -&gt; DoNothingByValue.main(null)),
+            new MenuRow("Swap if Hi-Low", () -&gt; IntByReference.main(null)),
+            new MenuRow("Matrix Reverse", () -&gt; Matrix.main(null)),
+            new MenuRow("Diverse Array", () -&gt; Matrix.main(null)),
+            new MenuRow("Random Squirrels", () -&gt; Number.main(null))
+        };
+
+        // Menu construction
+        Menu menu = new Menu(rows);
+
+        // Run menu forever, exit condition contained in loop
+        while (true) {
+            System.out.println("Hacks Menu:");
+            // print rows
+            menu.print();
+
+            // Scan for input
+            try {
+                Scanner scan = new Scanner(System.in);
+                int selection = scan.nextInt();
+
+                // menu action
+                try {
+                    MenuRow row = menu.get(selection);
+                    // stop menu
+                    if (row.getTitle().equals("Exit")) {
+                        if (scan != null) 
+                            scan.close();  // scanner resource requires release
+                        return;
+                    }
+                    // run option
+                    row.run();
+                } catch (Exception e) {
+                    System.out.printf("Invalid selection %d\n", selection);
+                }
+
+            } catch (Exception e) {
+                System.out.println("Not a number");
+            }
+        }
+    }
+}
+</code></pre></div></div>
+<p>The code above uses try-catch blocks to handle exceptions and Runnable to control program execution.</p>
+
+<p>The “DiverseArrays” and “Matrix” classes demonstrate the application of control structures and data types in programming. These classes use arrays, loops, and conditionals to perform various tasks, such as finding the sum and average of elements in an array or matrix.</p>
+
+<p>The “DoNothingByValue” and “IntByReference” classes demonstrate the concepts of pass-by-value and pass-by-reference, respectively. These are important concepts in Java, and understanding them is crucial for writing efficient and effective code.</p>
+
+<h2 id="methods">
+<a class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Methods</h2>
+<p>Methods are reusable code blocks that perform a specific task. They help in reducing code duplication, improving code readability, and making the code modular. In Java, a method is defined using the keyword ‘void’ (if it doesn’t return anything) or the data type it returns, followed by the method name, and the parameters it takes (if any).</p>
+
+<h2 id="control-structures">
+<a class="anchor" href="#control-structures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Control Structures</h2>
+<p>Control structures are programming constructs that determine the order in which statements are executed in a program. They control the flow of the program, based on certain conditions or criteria. Java has several types of control structures, including if-else, switch, while, do-while, and for loops.</p>
+
+<h2 id="mathrandom">
+<a class="anchor" href="#mathrandom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Math.random</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomInt(3));
+// Expected output: 0, 1 or 2
+
+console.log(getRandomInt(1));
+// Expected output: 0
+
+console.log(Math.random());
+// Expected output: a number from 0 to &lt;1
+</code></pre></div></div>
+
+<h2 id="ap-frq-2019">
+<a class="anchor" href="#ap-frq-2019" aria-hidden="true"><span class="octicon octicon-link"></span></a>AP FRQ 2019</h2>
+<p>Part a</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public ArrayList&lt;String&gt; getDelimitersList(String[] tokens) 
+{     
+  ArrayList&lt;String&gt; d = new ArrayList&lt;String&gt;();    
+  for (String str : tokens)    
+  {       
+    if (str.equals(openDel) || str.equals(closeDel))       
+    {          d.add(str);       
+    }    
+}    
+return d; 
+} 
+</code></pre></div></div>
+
+<p>Part b</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public boolean isBalanced(ArrayList &lt; String &gt; delimiters) {
+  int openCount = 0;
+  int closeCount = 0;
+  for (String str: delimiters) {
+    if (str.equals(openDel)) {
+      openCount++;
+    } else {
+      closeCount++;
+    }
+    if (closeCount &gt; openCount) {
+      return false;
+    }
+  }
+  if (openCount == closeCount) {
+    return true;
+  } else {
+    return false;
+  }
+}
+</code></pre></div></div>
+
+
+  </div><a class="u-url" href="/fastpages/markdown/2023/03/12/Data-Types-Tri-3.html" hidden></a>
+</article>
