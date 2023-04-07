@@ -6,7 +6,7 @@
 
 https://kar722.github.io/fastpages/
 
-# My Blog
+# Karthik's Blog
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
