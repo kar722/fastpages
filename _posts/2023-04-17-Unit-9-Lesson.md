@@ -1,3 +1,13 @@
+---
+toc: true
+layout: post
+description: Unit 9 Teaching
+categories: [markdown]
+title: Unit 9 APCSA - Inheritance
+---
+
+# Unit 9 Java Inheritance
+
 ## Superclass and Subclass
 - Inheritance defines a relationship between objects that share characteristics. Specifically it is the mechanism whereby a new class, called a subclass, is created from an existing class, called a superclass, by absorbing its state and behavior and augmenting these with features unique to the new class. We say that the subclass inherits characteristics of its superclass.
 - Don’t get confused by the names: a subclass is bigger than a superclass—it contains more data and more methods!
