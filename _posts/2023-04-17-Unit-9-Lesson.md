@@ -250,4 +250,4 @@ Output:
 Car is running safely
 ```
 
-# Kahoot
+# Quizzez
